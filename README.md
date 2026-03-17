@@ -287,45 +287,80 @@ void assert_failed(uint8_t *file, uint32_t line)
 # FOR PULSE AT 5000
 
 TON = 1.55 × 0.2 = 0.31 ms
+
 TOFF = 1.55 × 0.2 = 0.31 ms
+
 Total Time = TON + TOFF = 0.31 + 0.31 = 0.62 ms = 0.62 × 10⁻³ sec
+
 Frequency = 1 / Total Time
+
 = 1 / (0.62 × 10⁻³)
+
 = 1.6129 × 10³ Hz
+
 = 1.6 kHz
 
 Duty Ratio = TON / (TON + TOFF)
+
 = 0.31 / 0.62
+
 = 0.5
 
 # FOR PULSE AT 7000
+
 TON = 2.2 × 0.2 = 0.44 ms
+
 TOFF = 0.9 × 0.2 = 0.18 ms
+
 Total Time = TON + TOFF
+
 = 0.44 + 0.18
+
 = 0.62 ms
+
 = 0.62 × 10⁻³ sec
+
 Frequency = 1 / Total Time
+
 = 1 / (0.62 × 10⁻³)
+
 = 1.6129 × 10³ Hz
+
 = 1.6 kHz
+
 Duty Ratio = TON / (TON + TOFF)
+
 = 0.44 / 0.62
+
 = 0.71
 
 # FOR PULSE AT 9000
+
 TON = 2.8 × 0.2 = 0.56 ms
+
 TOFF = 0.3 × 0.2 = 0.06 ms
+
 Total Time = TON + TOFF
+
+
 = 0.56 + 0.06
+
 = 0.62 ms
+
 = 0.62 × 10⁻³ sec
+
 Frequency = 1 / Total Time
+
 = 1 / (0.62 × 10⁻³)
+
 = 1.6129 × 10³ Hz
+
 = 1.6 kHz
+
 Duty Ratio = TON / (TON + TOFF)
+
 = 0.56 / 0.62
+
 = 0.90
 
 ## Result :
